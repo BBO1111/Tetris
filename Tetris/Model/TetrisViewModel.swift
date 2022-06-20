@@ -125,7 +125,7 @@ class TetrisViewModel: ObservableObject {
     }
     
     func onFinishMoveDownEvent(_ figure: Figure) {
-        //score.add(points: 10)
+        
     }
     
     func onBurningLineEvent(_ number: Int) {
