@@ -2,7 +2,7 @@
 //  TetrisApp.swift
 //  Tetris
 //
-//  Created by mac on 20.06.2022.
+//  Created by mac on 03.06.2022.
 //
 
 import SwiftUI
@@ -11,7 +11,9 @@ import SwiftUI
 struct TetrisApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environmentObject(TetrisViewModel())
         }
     }
 }
+
